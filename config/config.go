@@ -7,6 +7,9 @@ import (
 	"github.com/joho/godotenv"
 )
 
+// TODO:(#1234):
+// HACK:(#5678):
+// FIXME:(#1112):
 type Config struct {
 	Port           string `env:"PORT" envDefault:"8080"`
 	SecretPassword string `env:"SECRET_PASSWORD"`
